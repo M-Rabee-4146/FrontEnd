@@ -2,7 +2,7 @@ import React from 'react'
 import { Breadcrumb, BreadcrumbItem } from "flowbite-react";
 import { HomeIcon } from '@heroicons/react/24/outline';
 import Navbar from '../components/Navbar.jsx';
-import CourseCards from '../components/CourseCards.jsx';
+import CourseCards from './Dashboard/CourseCards.jsx';
 import Footer from '../components/Footer.jsx';
 import { AnimatePresence,motion } from 'framer-motion';
 

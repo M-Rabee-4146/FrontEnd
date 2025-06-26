@@ -2,7 +2,7 @@ import { UserIcon, BookOpenIcon } from "@heroicons/react/24/outline"
 import axios from "axios"
 import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
-import axiosinstance from "../axios/axios"
+import axiosinstance from "../../axios/axios"
 import { AnimatePresence, easeIn, motion } from "framer-motion"
 
 export default function CourseCards() {

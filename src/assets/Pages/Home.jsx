@@ -2,7 +2,7 @@ import { ArrowUpRightIcon, Bars3Icon, ChevronDownIcon, MagnifyingGlassIcon, XMar
 import { useEffect, useState } from "react"
 import Navbar from "../components/Navbar.jsx"
 import HomeFeatures from "../components/HomeFeatures.jsx"
-import CourseCards from "../components/CourseCards.jsx"
+import CourseCards from "./Dashboard/CourseCards.jsx"
 import Footer from "../components/Footer.jsx"
 import Loading2 from "../components/Loading2.jsx"
 import { AnimatePresence, motion } from "framer-motion"

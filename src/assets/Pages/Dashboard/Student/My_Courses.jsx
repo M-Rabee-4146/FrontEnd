@@ -1,5 +1,5 @@
 import React from 'react'
-import CourseCards from '../components/CourseCards.jsx'
+import CourseCards from '../CourseCards.jsx'
 
 const My_Courses = ({setBackdrop}) => {
   return (

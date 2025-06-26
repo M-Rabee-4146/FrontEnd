@@ -1,0 +1,28 @@
+/* Define the custom fonts */
+@font-face {
+    font-family: 'Font-aquarium';
+    src: url('/Fonts/AQUARIUM.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Font-dustron';
+    src: url('/Fonts/dustrone.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Font-Qurova';
+    src: url('/Fonts/QurovaDEMO-Medium-BF67a5c6382651c.otf') format('opentype');
+  }
+  
+  /* Apply the custom fonts */
+  .font-aquarium {
+    font-family: 'Font-aquarium', sans-serif;
+  }
+  
+  .font-dustron {
+    font-family: 'Font-dustron', sans-serif;
+  }
+  
+  .font-qurova {
+    font-family: 'Font-Qurova', sans-serif;
+  }
+  

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Sidebar from '../components/Sidebar'
-import DashBg from '../components/DashBg'
+import Sidebar from '../components/Sidebar.jsx'
+import DashBg from '../components/DashBg.jsx'
 import { Outlet } from 'react-router-dom';
 
 const Dashboard = () => {

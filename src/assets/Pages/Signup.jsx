@@ -4,10 +4,10 @@ import toast from 'react-hot-toast'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ArrowLeftIcon } from '@heroicons/react/24/outline'
-import Loading from '../components/Loading'
-import Loading2 from '../components/Loading2'
-import Navbar from '../components/Navbar'
-import axiosinstance from '../axios/axios'
+import Loading from '../components/Loading.jsx'
+import Loading2 from '../components/Loading2.jsx'
+import Navbar from '../components/Navbar.jsx'
+import axiosinstance from '../axios/axios.js'
 
 const Signup = () => {
     const location = useLocation();

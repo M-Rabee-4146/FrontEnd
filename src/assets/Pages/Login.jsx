@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 import toast from 'react-hot-toast'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import Loading2 from '../components/Loading2'
-import Navbar from '../components/Navbar'
+import Loading2 from '../components/Loading2.jsx'
+import Navbar from '../components/Navbar.jsx'
 import axiosinstance from '../axios/axios'
 
 const Login = () => {

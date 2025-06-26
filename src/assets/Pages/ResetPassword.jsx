@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 import toast from 'react-hot-toast'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import axiosinstance from '../axios/axios'
+import axiosinstance from '../axios/axios.js'
 
 const ResetPassword = () => {
     const { Token } = useParams('')

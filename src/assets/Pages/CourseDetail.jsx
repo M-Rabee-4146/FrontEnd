@@ -4,7 +4,7 @@ import axios from "axios";
 import { UserCircleIcon } from "@heroicons/react/24/solid";
 import { ChatBubbleLeftIcon, UserPlusIcon } from "@heroicons/react/24/outline";
 import toast from "react-hot-toast";
-import axiosinstance from "../axios/axios";
+import axiosinstance from "../axios/axios.js";
 
 const CourseDetail = () => {
     const { id } = useParams();

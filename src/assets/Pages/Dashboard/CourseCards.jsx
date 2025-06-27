@@ -21,7 +21,7 @@ export default function CourseCards() {
   }
   const location = useLocation()
   const isHome = location.pathname.includes('/')
-  const data2 = data.slice(0, 6)
+  const data2 = data?.slice(0, 6)
   // console.log(data2)
   return (
     <AnimatePresence mode="wait">

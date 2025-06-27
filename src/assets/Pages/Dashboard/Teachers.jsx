@@ -95,7 +95,7 @@ const Teachers = () => {
                 <div className="flex justify-center items-center">
       
                 <div className="img md:size-[200px] size-[100px] overflow-hidden rounded-full flex ">
-                              {slcUser.userprofile ? <img className="object-cover object-center w-full h-full" src={`http://localhost:3031/User_dp/${slcUser.userprofile}`} alt="" /> : <img className="object-cover object-center w-full h-full" src={`http://localhost:3031/User_dp/Default.jpg`} alt="" />}
+                              {slcUser.userprofile ? <img className="object-cover object-center w-full h-full" src={`https://learnero-backend-production.up.railway.app/User_dp/${slcUser.userprofile}`} alt="" /> : <img className="object-cover object-center w-full h-full" src={`https://learnero-backend-production.up.railway.app/User_dp/Default.jpg`} alt="" />}
                           </div>
                 </div>
                 <h2 className="text-xl font-bold text-green-600 text-center">{slcUser.name}</h2>

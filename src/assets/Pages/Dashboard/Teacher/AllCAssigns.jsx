@@ -65,7 +65,7 @@ const AllCAssigns = () => {
                     {/* <h1 className='text-gray-700 font-semibold text-lg'>Comment: <span className='font-normal'>{item.comment}</span></h1> */}
                     <label htmlFor="Email" className='text-green-600   font-qurova'>File:</label>
                     <div className="email w-full px-4 py-3 min-h-12 my-1 rounded-md border bg-gray-100  border-green-500 font-bold text-sm text-gray-600" > <a
-                        href={`http://localhost:3031/download/${item.file}`}
+                        href={`https://learnero-backend-production.up.railway.app/download/${item.file}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className='w-full'

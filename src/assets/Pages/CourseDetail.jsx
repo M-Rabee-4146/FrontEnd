@@ -56,7 +56,7 @@ const CourseDetail = () => {
                 <div className="flex justify-center items-center flex-col lg:flex-row ">
                     <div className="max-w-4xl w-full md:mx-2 px-4 py-8">
                         <img
-                            src={`http://localhost:3031/Courses/${course.image}`}
+                            src={`https://learnero-backend-production.up.railway.app/Courses/${course.image}`}
                             alt={course.title}
                             className="rounded-lg shadow-lg w-full max-h-[400px] object-cover"
                         />
@@ -73,7 +73,7 @@ const CourseDetail = () => {
                                 {/* Profile Image */}
                                 <div className="relative mb-6">
                                     <img
-                                        src={`http://localhost:3031/User_dp/${teacher?.userprofile}`}
+                                        src={`https://learnero-backend-production.up.railway.app/User_dp/${teacher?.userprofile}`}
                                         alt={teacher?.name}
                                         className="w-32 h-32 rounded-3xl mx-auto object-cover shadow-xl absolute -top-5 right-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
                                     />

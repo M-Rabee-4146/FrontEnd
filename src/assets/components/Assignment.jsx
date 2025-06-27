@@ -137,7 +137,7 @@ const toggleSelectAll = () => {
             className="accent-green-500"
           />
           <img
-            src={`http://localhost:3031/User_dp/${student.userprofile || 'default.jpg'}`}
+            src={`https://learnero-backend-production.up.railway.app/User_dp/${student.userprofile || 'default.jpg'}`}
             alt={student.name}
             className="w-8 h-8 rounded-full object-cover"
           />

@@ -34,7 +34,7 @@ export default function Mycourses({ setdata2 }) {
                             {/* Course Image */}
                             <div className="relative overflow-hidden">
                                 <img
-                                    src={`http://localhost:3031/Courses/${course.image}`}
+                                    src={`https://learnero-backend-production.up.railway.app/Courses/${course.image}`}
                                     alt={course.title}
                                     className="h-full max-h-[300px]  object-cover transition-transform duration-300 group-hover:scale-110"
                                 />
@@ -86,8 +86,8 @@ export default function Mycourses({ setdata2 }) {
                                 <div className="flex border border-gray-200 rounded-2xl transition-all duration-300 p-2 hover:shadow-xl">
                                     <div className="img size-12 min-w-12 rounded-2xl overflow-hidden object-center object-cover">
                                         {course.teacher_id?.userprofile ?
-                                            <img src={`http://localhost:3031/User_dp/${course.teacher_id.userprofile}`} alt={`${course.teacher_id.name}`} className="w-full h-full" />
-                                            : <img src={`http://localhost:3031/User_dp/default.jpg`} alt={`${course.teacher_id.name}`} className="w-full h-full" />}
+                                            <img src={`https://learnero-backend-production.up.railway.app/User_dp/${course.teacher_id.userprofile}`} alt={`${course.teacher_id.name}`} className="w-full h-full" />
+                                            : <img src={`https://learnero-backend-production.up.railway.app/User_dp/default.jpg`} alt={`${course.teacher_id.name}`} className="w-full h-full" />}
                                     </div>
                                     <div className="text mx-2">
                                         <h1 className="capitalize text-md font-semibold">{course.teacher_id.name}</h1>

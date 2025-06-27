@@ -75,7 +75,7 @@ console.log(newToOld)
 
           {/* File download */}
           <a
-            href={`http://localhost:3031/download/${item.file}`}
+            href={`https://learnero-backend-production.up.railway.app/download/${item.file}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm mt-auto text-blue-600 hover:underline font-medium"

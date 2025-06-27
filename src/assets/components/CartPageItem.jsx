@@ -9,7 +9,7 @@ const CartPageItem = ({id, image, name, email, verified, active,user }) => {
                 <td className='flex justify-center items-center'>
 
                     <div className="img size-12 overflow-hidden rounded-full">
-                        {image ? <img className="object-cover object-center w-full h-full" src={`http://localhost:3031/User_dp/${image}`} alt="" /> : <img className="object-cover object-center w-full h-full" src={`http://localhost:3031/User_dp/Default.jpg`} alt="" />}
+                        {image ? <img className="object-cover object-center w-full h-full" src={`https://learnero-backend-production.up.railway.app/User_dp/${image}`} alt="" /> : <img className="object-cover object-center w-full h-full" src={`https://learnero-backend-production.up.railway.app/User_dp/Default.jpg`} alt="" />}
                     </div>
                 </td>
                 <td className=''>

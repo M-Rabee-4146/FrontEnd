@@ -118,7 +118,7 @@ const Sidebar = ({ setSlcComponent, slcComponent, setBackdrop }) => {
         <div onClick={handleActive} className="icon  hover:bg-[#e5e5e5] transition-all duration-300 rounded-lg ">
           {/* <Cog6ToothIcon className='size-6 m-2 text-green-600 hover:scale-110 transition-all duration-300 ' /> */}
           <div className="circle border border-green-600 size-6  m-2 rounded-4xl overflow-hidden ">
-            {localStorage.getItem('DP') && localStorage.getItem('DP') !== "undefined" ? <img className='object-cover h-full w-full object-center' src={`http://localhost:3031/User_dp/${localStorage.getItem('DP')}`} alt="user" /> : <img className='object-cover h-full w-full object-center' src={`http://localhost:3031/User_dp/Default.jpg`} alt="user" />}
+            {localStorage.getItem('DP') && localStorage.getItem('DP') !== "undefined" ? <img className='object-cover h-full w-full object-center' src={`https://learnero-backend-production.up.railway.app/User_dp/${localStorage.getItem('DP')}`} alt="user" /> : <img className='object-cover h-full w-full object-center' src={`https://learnero-backend-production.up.railway.app/User_dp/Default.jpg`} alt="user" />}
           </div>
         </div>
         {active == true &&
@@ -129,8 +129,8 @@ const Sidebar = ({ setSlcComponent, slcComponent, setBackdrop }) => {
                 <div className="flex flex-col items-center gap-3 relative">
                   <div className="circle border border-green-600 size-32 m-2 rounded-full overflow-hidden object-left ">
                     {imageSrc ? <img src={`${imageSrc}`} className='object-cover h-full w-full object-center' alt="user" /> : data?.userprofile
-                      ? <img className='object-cover h-full w-full object-center' src={`http://localhost:3031/User_dp/${data?.userprofile}`} alt="user" />
-                      : <img className='object-cover h-full w-full object-center' src={`http://localhost:3031/User_dp/Default.jpg`} alt="user" />}
+                      ? <img className='object-cover h-full w-full object-center' src={`https://learnero-backend-production.up.railway.app/User_dp/${data?.userprofile}`} alt="user" />
+                      : <img className='object-cover h-full w-full object-center' src={`https://learnero-backend-production.up.railway.app/User_dp/Default.jpg`} alt="user" />}
                   </div>
 
                   {/* Save */}

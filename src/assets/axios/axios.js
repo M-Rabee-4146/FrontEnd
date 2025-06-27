@@ -2,7 +2,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const axiosinstance = axios.create({
-  baseURL: 'http:learnero-backend-production.up.railway.app',
+  baseURL: 'https:learnero-backend-production.up.railway.app',
 });
 
 // Intercept responses for auth/fee errors

@@ -150,7 +150,7 @@ const Signup = () => {
                                     animate={{ opacity: 1, x: 0 }}
                                     exit={{ opacity: 0, x: 50 }}
                                     transition={{ duration: 0.5 }}
-                                    className="md:bg-white md:shadow-2xl py-4 p-8 rounded-lg md:border border-gray-200 w-full lg:mr-20 max-w-[450px] max-h-[600px] mt-15 md:mt-0">
+                                    className="md:bg-white md:shadow-2xl py-4 p-8 rounded-lg md:border border-gray-200 w-full lg:mr-20 max-w-[450px] max-h-[600px]">
                                     <h2 className="text-2xl font-bold text-center lg:block hidden text-gray-700   mb-6">Sign up</h2>
                                     <h1 className='text-green-500 text-4xl mb-4 font-qurova lg:hidden text-center ' >LearnerO</h1>
 

@@ -42,7 +42,7 @@ export default function CourseCards() {
                 {/* Course Image */}
                 <div className="relative overflow-hidden">
                   <img
-                    src={`http://localhost:3031/Courses/${course.image}`}
+                    src={`${axiosinstance}/Courses/${course.image}`}
                     alt={course.title}
                     className="w-full h-54 object-cover transition-transform duration-300 group-hover:scale-110"
                   />

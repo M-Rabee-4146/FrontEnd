@@ -110,18 +110,20 @@ export default function Home() {
               <section className="bg-[#f3f3f3]">
 
                 {/* Section Header */}
-                <div className="text-center pb-4 pt-5 bg-[#f3f3f3]">
-                  <motion.h2 
-                   initial={{ opacity: 0,y:-40 }}
+                <motion.div
+                  initial={{ opacity: 0,y:-40 }}
                         whileInView={{ opacity: 1,y:0 }}
                         transition={{duration:.5,}}
+                 className="text-center pb-4 pt-5 bg-[#f3f3f3]">
+                  <h2 
+                 
                   className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3">
                     Featured <span className="text-green-500">Courses</span>
-                  </motion.h2>
-                  <p className="text-base  text-gray-500 max-w-2xl mx-auto">
+                  </h2>
+                  <p className="text-base  text-gray-500 max-w-2xl md:mx-auto mx-2">
                     Explore our most popular courses designed to help you achieve your educational goals
                   </p>
-                </div>
+                </motion.div>
                 <CourseCards />
                 {/* View All Courses Button */}
                 <div className="text-center bg-[#f3f3f3] mt-5 md:mt-0">
